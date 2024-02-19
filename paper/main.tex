@@ -6,7 +6,6 @@
 \usepackage{graphicx}
 \usepackage{subfigure}
 \usepackage{booktabs}
-\usepackage{natbib}
 \usepackage[hidelinks]{hyperref}
 \usepackage{algorithm}
 \usepackage{algorithmic}
@@ -25,6 +24,10 @@
 \usepackage{thmtools}
 \usepackage{xspace}
 \usepackage[capitalize,noabbrev]{cleveref}
+
+\usepackage[round]{natbib}
+\renewcommand{\bibname}{References}
+\renewcommand{\bibsection}{\subsubsection*{\bibname}}
 
 \theoremstyle{plain}
 \newtheorem{theorem}{Theorem}
