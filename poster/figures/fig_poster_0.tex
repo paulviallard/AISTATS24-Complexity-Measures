@@ -1,0 +1,31 @@
+\documentclass[]{standalone}
+
+\usepackage[T1]{fontenc}
+\usepackage{tikz}
+\usepackage{anyfontsize}
+\usepackage[default]{opensans}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\renewcommand\tiny{\@setfontsize\tiny{10}{15}}
+\renewcommand\scriptsize{\@setfontsize\scriptsize{15}{20}}
+\renewcommand\footnotesize{\@setfontsize\footnotesize{20}{25}}
+\renewcommand\small{\@setfontsize\small{25}{30}}
+\renewcommand\normalsize{\@setfontsize\normalsize{30}{35}}
+\renewcommand\large{\@setfontsize\large{35}{40}}
+\renewcommand\Large{\@setfontsize\Large{40}{45}}
+\renewcommand\LARGE{\@setfontsize\LARGE{45}{50}}
+\renewcommand\huge{\@setfontsize\huge{50}{55}}
+\renewcommand\Huge{\@setfontsize\Huge{55}{60}}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{tikzpicture}
+  \node[] at (0.0,0.0) {\includegraphics[scale=1.0]{figures/fig_poster_0_qrcode.png}};
+  \node[] at (0.0,6.0) {\large\bf Link to our paper:};
+\end{tikzpicture}
+\end{document}
